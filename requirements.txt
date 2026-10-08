@@ -1,0 +1,20 @@
+# Versões testadas em 2026 com Python 3.11 (os quatro notebooks de exemplos/ rodaram de ponta a ponta).
+# O código é de 2021-2022: numpy >= 1.24 (sem np.str), scikit-learn >= 1.4 (sem OneHotEncoder(sparse=...)) e pandas 3
+# quebram partes dele. O pandas 2 não foi testado.
+
+# Bibliotecas
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.1
+numba==0.57.1
+scikit-learn==1.1.3
+matplotlib==3.7.5
+seaborn==0.12.2
+ipython==8.12.3
+jinja2==3.1.6
+
+# Notebooks de exemplos/ (Jupyter, leitura de .xls e o CatBoost do exemplo de churn)
+notebook
+xlrd==2.0.1
+catboost==1.2.2
+ipywidgets==8.1.5

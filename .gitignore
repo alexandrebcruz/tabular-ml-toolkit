@@ -1,0 +1,27 @@
+# Credencial da API do Kaggle: cada um usa a própria, em ~/.kaggle/
+kaggle.json
+
+# Dados: baixe das fontes indicadas nos READMEs
+exemplos/datasets/
+estudos/tecnicas_de_treinamento_2025/*.zip
+*.csv
+*.xls
+*.xlsx
+
+# Artefatos de treino
+catboost_info/
+*.pkl
+*.h5
+*.cbm
+*.onnx
+*.pmml
+
+# Python, numba e Jupyter
+__pycache__/
+*.py[cod]
+*.nbi
+*.nbc
+.ipynb_checkpoints/
+*.egg-info/
+build/
+.venv/
