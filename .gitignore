@@ -1,5 +1,6 @@
-# Credencial da API do Kaggle: cada um usa a própria, em ~/.kaggle/
+# Credenciais: a da API do Kaggle (cada um usa a própria, em ~/.kaggle/) e a do Google Cloud Storage
 kaggle.json
+credentials.json
 
 # Dados: baixe das fontes indicadas nos READMEs
 exemplos/datasets/
@@ -10,6 +11,9 @@ estudos/tecnicas_de_treinamento_2025/*.zip
 
 # Artefatos de treino
 catboost_info/
+*.keras
+nn_titanic*/
+modelos/
 *.pkl
 *.h5
 *.cbm
